@@ -47,7 +47,8 @@ portfolio-website/
       ├── contact-form.png
       ├── mobile-view.png
       ├── github-repository.png
-
+      ├── html-validation.png
+      └── css-validation.png
 
 ---
 
@@ -159,6 +160,8 @@ Contains:
 - Contact Form Screenshot
 - Mobile Responsive View
 - GitHub Repository Screenshot
+- HTML Validation Screenshot
+- CSS Validation Screenshot
 
 ---
 
