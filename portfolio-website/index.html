@@ -2,86 +2,158 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <title>Likhitha | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
 
-        <h1>Likhitha Doddi</h1>
+        <div class="container header-container">
 
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#contact">Contact</a>
-        </nav>
+            <!-- Left Side -->
+            <div class="hero-text">
+
+                <h1>Hello, I'm <span>Likhitha Doddi</span></h1>
+
+                <h2>Computer Science Engineer</h2>
+
+                <p>
+                    Passionate Computer Science student interested in building
+                    modern web applications, machine learning solutions,
+                    and data-driven projects.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#contact" class="btn">
+                        Contact Me
+                    </a>
+
+                    <a href="https://github.com/likhi-2403"
+                        target="_blank"
+                        class="btn-secondary">
+
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Side -->
+            <div class="hero-image">
+
+                <img src="images/profile.jpeg"
+                    alt="Likhitha Profile Picture">
+
+            </div>
+
+        </div>
 
     </header>
 
-    <hr>
+    <!-- Navigation -->
+    <nav>
 
-    <!-- Main Content -->
-    <main>
+        <div class="container nav-container">
 
-        <!-- About Section -->
-        <section id="about">
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </nav>
+
+    <!-- Main -->
+    <main class="container">
+
+        <!-- About -->
+        <section id="about" class="card">
 
             <h2>About Me</h2>
 
-            <img src="images/profile.jpeg" alt="Profile Picture" width="200">
-
             <p>
-                Hello! I am Likhitha, a beginner web developer and computer science student.
-                I am interested in web development, data analytics, AI, and machine learning projects.
+                I am a Computer Science student with strong interest in
+                Web Development, Machine Learning, and Data Analysis.
+                I enjoy creating responsive websites and learning modern
+                technologies through hands-on projects.
             </p>
 
             <p>
-                I enjoy learning new technologies and building simple projects.
+                My goal is to continuously improve my technical skills and
+                contribute to innovative software solutions.
             </p>
 
         </section>
 
-        <hr>
+        <!-- Skills -->
+        <section id="skills" class="card">
 
-        <!-- Skills Section -->
-        <section id="skills">
+            <h2>Technical Skills</h2>
 
-            <h2>Skills</h2>
+            <div class="skills-grid">
 
-            <ul>
-                <li>Python</li>
-                <li>Machine Learning</li>
-                <li>HTML</li>
-                <li>MySQL</li>
-                <li>Data Analysis</li>
-                <li>GitHub</li>
-            </ul>
+                <div class="skill-box">Python</div>
+
+                <div class="skill-box">Machine Learning</div>
+
+                <div class="skill-box">HTML</div>
+
+                <div class="skill-box">CSS</div>
+
+                <div class="skill-box">MySQL</div>
+
+                <div class="skill-box">Data Analysis</div>
+
+                <div class="skill-box">GitHub</div>
+
+
+            </div>
 
         </section>
 
-        <hr>
-
-        <!-- Contact Section -->
-        <section id="contact">
+        <!-- Contact -->
+        <section id="contact" class="card">
 
             <h2>Contact Me</h2>
 
             <form>
 
-                <label>Full Name:</label><br>
-                <input type="text" placeholder="Enter your name" required><br><br>
+                <input type="text"
+                    placeholder="Enter your name"
+                    required>
 
-                <label>Email:</label><br>
-                <input type="email" placeholder="Enter your email" required><br><br>
+                <input type="email"
+                    placeholder="Enter your email"
+                    required>
 
-                <label>Message:</label><br>
-                <textarea rows="5" cols="30" placeholder="Write your message"></textarea><br><br>
+                <textarea rows="5"
+                    placeholder="Write your message"></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit">
+                    Send Message
+                </button>
 
             </form>
 
@@ -89,14 +161,34 @@
 
     </main>
 
-    <hr>
-
     <!-- Footer -->
     <footer>
 
-        <p> Likhitha Doddi</p>
+        <div class="container footer-container">
 
-        <a href="https://github.com/" target="_blank">GitHub</a>
+            <p>
+                © 2026 Likhitha Doddi | All Rights Reserved
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/likhi-2403"
+                    target="_blank">
+
+                    GitHub
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/likhitha-doddi"
+                    target="_blank">
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </div>
 
     </footer>
 
