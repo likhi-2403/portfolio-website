@@ -4,46 +4,76 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
     <title>Likhitha | Portfolio</title>
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="style.css">
 
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!-- =========================
+         LOADER
+    ========================== -->
+
+    <div id="loader">
+
+        <div class="spinner"></div>
+
+    </div>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
     <header>
 
         <div class="container header-container">
 
-            <!-- Left Side -->
+            <!-- Hero Text -->
             <div class="hero-text">
 
-                <h1>Hello, I'm <span>Likhitha Doddi</span></h1>
+                <h1>
 
-                <h2>Computer Science Engineer</h2>
+                    Hello, I'm
+                    <span>Likhitha Doddi</span>
+
+                </h1>
+
+                <h2 id="typingText"></h2>
 
                 <p>
-                    Passionate Computer Science student interested in building
-                    modern web applications, machine learning solutions,
-                    and data-driven projects.
+
+                    Passionate Computer Science student interested in
+                    Web Development, Machine Learning,
+                    and Data Analysis.
+
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#contact" class="btn">
+                    <a href="#contact"
+                        class="btn">
+
                         Contact Me
+
                     </a>
 
                     <a href="https://github.com/likhi-2403"
@@ -58,11 +88,11 @@
 
             </div>
 
-            <!-- Right Side -->
+            <!-- Hero Image -->
             <div class="hero-image">
 
                 <img src="images/profile.jpeg"
-                    alt="Likhitha Profile Picture">
+                    alt="Profile Picture">
 
             </div>
 
@@ -70,7 +100,10 @@
 
     </header>
 
-    <!-- Navigation -->
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
     <nav>
 
         <div class="container nav-container">
@@ -81,34 +114,49 @@
 
             <a href="#contact">Contact</a>
 
+            <button id="darkModeToggle">
+
+                🌙 Dark Mode
+
+            </button>
+
         </div>
 
     </nav>
 
-    <!-- Main -->
+    <!-- =========================
+         MAIN
+    ========================== -->
+
     <main class="container">
 
         <!-- About -->
-        <section id="about" class="card">
+        <section id="about"
+            class="card hidden">
 
             <h2>About Me</h2>
 
             <p>
+
                 I am a Computer Science student with strong interest in
                 Web Development, Machine Learning, and Data Analysis.
-                I enjoy creating responsive websites and learning modern
-                technologies through hands-on projects.
+                I enjoy building responsive websites and learning
+                modern technologies through projects.
+
             </p>
 
             <p>
-                My goal is to continuously improve my technical skills and
-                contribute to innovative software solutions.
+
+                My goal is to continuously improve my technical skills
+                and contribute to innovative software solutions.
+
             </p>
 
         </section>
 
         <!-- Skills -->
-        <section id="skills" class="card">
+        <section id="skills"
+            class="card hidden">
 
             <h2>Technical Skills</h2>
 
@@ -122,38 +170,45 @@
 
                 <div class="skill-box">CSS</div>
 
+                <div class="skill-box">JavaScript</div>
+
                 <div class="skill-box">MySQL</div>
 
                 <div class="skill-box">Data Analysis</div>
 
                 <div class="skill-box">GitHub</div>
 
-
             </div>
 
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="card">
+        <section id="contact"
+            class="card hidden">
 
             <h2>Contact Me</h2>
 
-            <form>
+            <form id="contactForm">
 
                 <input type="text"
-                    placeholder="Enter your name"
-                    required>
+                    id="name"
+                    placeholder="Enter your name">
 
                 <input type="email"
-                    placeholder="Enter your email"
-                    required>
+                    id="email"
+                    placeholder="Enter your email">
 
-                <textarea rows="5"
+                <textarea id="message"
+                    rows="5"
                     placeholder="Write your message"></textarea>
 
                 <button type="submit">
+
                     Send Message
+
                 </button>
+
+                <p id="formMessage"></p>
 
             </form>
 
@@ -161,13 +216,18 @@
 
     </main>
 
-    <!-- Footer -->
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
     <footer>
 
         <div class="container footer-container">
 
             <p>
+
                 © 2026 Likhitha Doddi | All Rights Reserved
+
             </p>
 
             <div class="social-links">
@@ -191,6 +251,16 @@
         </div>
 
     </footer>
+
+    <!-- Scroll To Top -->
+    <button id="scrollTopBtn">
+
+        ↑
+
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 
 </body>
 
