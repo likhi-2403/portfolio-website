@@ -9,7 +9,8 @@ darkModeBtn.addEventListener("click", () => {
 
     document.body.classList.toggle("dark-mode");
 
-    // Save preference
+    // Save Preference
+
     if (document.body.classList.contains("dark-mode")) {
 
         localStorage.setItem(
@@ -83,7 +84,8 @@ form.addEventListener("submit", function(event) {
         formMessage.innerHTML =
             "Please enter your name.";
 
-        formMessage.style.color = "red";
+        formMessage.style.color =
+            "red";
 
         return;
     }
@@ -95,7 +97,8 @@ form.addEventListener("submit", function(event) {
         formMessage.innerHTML =
             "Please enter a valid email.";
 
-        formMessage.style.color = "red";
+        formMessage.style.color =
+            "red";
 
         return;
     }
@@ -107,7 +110,8 @@ form.addEventListener("submit", function(event) {
         formMessage.innerHTML =
             "Message must contain at least 10 characters.";
 
-        formMessage.style.color = "red";
+        formMessage.style.color =
+            "red";
 
         return;
     }
@@ -117,7 +121,8 @@ form.addEventListener("submit", function(event) {
     formMessage.innerHTML =
         "Message sent successfully!";
 
-    formMessage.style.color = "limegreen";
+    formMessage.style.color =
+        "limegreen";
 
     // Clear Form
 
@@ -191,7 +196,7 @@ function eraseEffect() {
     }
 }
 
-// Start Typing
+// Start Animation
 
 typeEffect();
 
@@ -204,7 +209,8 @@ window.addEventListener("load", () => {
     const loader =
         document.getElementById("loader");
 
-    loader.style.display = "none";
+    loader.style.display =
+        "none";
 });
 
 // =========================
@@ -221,14 +227,26 @@ const observer =
 
         if (entry.isIntersecting) {
 
-            entry.target.classList.add("show");
+            entry.target.classList.add(
+                "show"
+            );
+
+        } else {
+
+            entry.target.classList.remove(
+                "show"
+            );
         }
     });
+
+}, {
+    threshold: 0.2
 });
 
-hiddenElements.forEach((el) =>
-    observer.observe(el)
-);
+hiddenElements.forEach((el) => {
+
+    observer.observe(el);
+});
 
 // =========================
 // SCROLL TO TOP BUTTON
@@ -291,14 +309,18 @@ window.addEventListener("scroll", () => {
 
     navLinks.forEach((link) => {
 
-        link.classList.remove("active");
+        link.classList.remove(
+            "active"
+        );
 
         if (
             link.getAttribute("href")
             .includes(current)
         ) {
 
-            link.classList.add("active");
+            link.classList.add(
+                "active"
+            );
         }
     });
 });
