@@ -1,233 +1,246 @@
-# Personal Portfolio Website
+# Interactive Portfolio Website
 
 ## Project Overview
-This project is a responsive Personal Portfolio Website created using HTML5 and CSS3. The website showcases personal information, technical skills, social media links, and a contact form in a clean and professional layout.
 
-The project was developed to understand frontend web development concepts including webpage structure, styling, responsive design, and GitHub project hosting.
+This project is an Interactive Personal Portfolio Website developed using HTML5, CSS3, and JavaScript. The website showcases personal information, technical skills, and contact details through a modern, responsive, and user-friendly interface.
+
+The project demonstrates frontend web development concepts including responsive design, DOM manipulation, event handling, form validation, local storage, and interactive user interface components.
+
+---
+
+## Project Objectives
+
+- Create a professional personal portfolio website
+- Apply HTML5 semantic structure and best practices
+- Design a responsive layout using CSS3
+- Implement JavaScript-based interactive features
+- Validate user input through form validation
+- Improve user experience with dynamic content and animations
+- Practice GitHub project management and documentation
 
 ---
 
 ## Features
-- Professional homepage design
-- About section
-- Technical skills section
-- Contact form
-- Navigation menu
-- Responsive mobile-friendly design
-- GitHub and LinkedIn links
-- Hover effects and animations
-- Professional profile image styling
+
+### HTML Features
+
+- Semantic HTML5 structure
+- Header, Navigation, Main, Section, and Footer elements
+- About Me section
+- Technical Skills section
+- Contact Form section
+- Internal navigation links
+- Profile image with alt text
+
+### CSS Features
+
+- External stylesheet implementation
+- Professional color scheme
+- Responsive design for desktop and mobile devices
+- Flexbox and Grid layouts
+- Hover effects and transitions
+- Card-based UI design
+- Custom typography using Google Fonts
+- Dark Mode styling
+
+### JavaScript Features
+
+- Dark Mode Toggle
+- Local Storage Integration
+- Typing Animation
+- Form Validation
+- Success and Error Messages
+- Scroll-To-Top Button
+- Active Navigation Highlighting
+- DOM Manipulation
+- Event Listeners
 
 ---
 
 ## Technologies Used
+
 - HTML5
 - CSS3
+- JavaScript
 - Visual Studio Code
 - GitHub
 - Google Chrome
 
 ---
 
-## Folder Structure
+## Technical Skills Displayed
 
-portfolio-website/
-│
-├── index.html
-├── style.css
-├── README.md
-│
-├── images/
-│     └── profile.jpg
-│
-└── screenshots/
-      ├── homepage.png
-      ├── about-section.png
-      ├── skills-section.png
-      ├── contact-form.png
-      ├── mobile-view.png
-      ├── github-repository.png
-      ├── html-validation.png
-      └── css-validation.png
-
----
-
-## How to Run
-
-1. Download or clone the project folder
-2. Open the project folder in Visual Studio Code
-3. Open `index.html` in browser
-
-OR
-
-Use Live Server extension in VS Code.
-
----
-
-## HTML Concepts Learned
-- HTML5 structure
-- Semantic HTML tags
-- Navigation links
-- Forms and input fields
-- Images and alt text
-- Lists and sections
-- Internal linking
-
----
-
-## CSS Concepts Learned
-- External CSS
-- CSS selectors
-- Flexbox
-- CSS Grid
-- Responsive Design
-- Media Queries
-- Hover Effects
-- Box Model
-- Styling Forms and Buttons
-
----
-
-## Website Structure
-
-### Header Section
-Contains:
-- Introduction
-- Professional title
-- Buttons
-- Profile image
-
-### Navigation Section
-Contains:
-- About link
-- Skills link
-- Contact link
-
-### About Section
-Contains:
-- Personal introduction
-- Career interests
-- Learning goals
-
-### Skills Section
-Contains:
 - Python
 - Machine Learning
 - HTML
 - CSS
+- JavaScript
 - MySQL
 - Data Analysis
 - GitHub
-- Power BI
 
-### Contact Section
-Contains:
+---
+
+## Folder Structure
+
+```plaintext
+portfolio-website/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+├── images/
+│   └── profile.jpeg
+│
+└── screenshots/
+    ├── homepage.png
+    ├── typing-animation.png
+    ├── about-section.png
+    ├── skills-section.png
+    ├── contact-form.png
+    ├── validation-error.png
+    ├── success-message.png
+    ├── dark-mode.png
+    ├── mobile-view.png
+    ├── github-repository.png
+    ├── html-validation.png
+    └── css-validation.png
+```
+
+---
+
+## Setup Instructions
+
+### Step 1
+Download or clone the repository.
+
+### Step 2
+Open the project folder in Visual Studio Code.
+
+### Step 3
+Ensure the following files exist:
+- index.html
+- style.css
+- script.js
+
+### Step 4
+Place your profile image inside the images folder.
+
+### Step 5
+Open index.html in any web browser or run using Live Server.
+
+---
+
+## JavaScript Functionality
+
+### Dark Mode Toggle
+Allows users to switch between light and dark themes. User preferences are stored using Local Storage.
+
+### Typing Animation
+Displays dynamic professional titles:
+- Computer Science Engineer
+- Web Developer
+- Machine Learning Enthusiast
+- Data Analyst
+
+### Form Validation
+Validates:
 - Name field
 - Email field
-- Message box
-- Submit button
+- Message length
 
-### Footer Section
-Contains:
-- Copyright information
-- GitHub profile link
-- LinkedIn profile link
+Displays error messages and success messages accordingly.
 
----
+### Scroll-To-Top Button
+Allows users to quickly navigate back to the top of the page.
 
-## Technical Requirements Completed
-
-| Requirement | Status |
-|-------------|---------|
-| HTML5 Structure | Completed |
-| Semantic HTML Tags | Completed |
-| External CSS File | Completed |
-| Responsive Design | Completed |
-| Flexbox/Grid Layout | Completed |
-| Hover Effects | Completed |
-| About Section | Completed |
-| Skills Section | Completed |
-| Contact Form | Completed |
-| GitHub Upload | Completed |
-| Documentation | Completed |
+### Active Navigation
+Highlights the currently active section while scrolling.
 
 ---
 
-## Screenshots Included
-- Homepage Screenshot
-- About Section Screenshot
-- Skills Section Screenshot
-- Contact Form Screenshot
-- Mobile Responsive View
-- GitHub Repository Screenshot
-- HTML Validation Screenshot
-- CSS Validation Screenshot
+## Responsive Design
+
+The website is fully responsive and adapts to:
+
+- Desktop Screens
+- Tablet Devices
+- Mobile Phones
+
+Media queries are used to ensure proper layout and usability across different screen sizes.
 
 ---
 
-## Testing Evidence
+## Testing Performed
 
-| Test Case | Result |
-|------------|---------|
-| Navigation links working | Passed |
-| Responsive layout working | Passed |
-| Profile image displayed correctly | Passed |
-| Skills section aligned properly | Passed |
-| Contact form visible | Passed |
-| Hover effects working | Passed |
-| GitHub and LinkedIn links working | Passed |
+### HTML Validation
+Validated using W3C HTML Validator.
 
----
+### CSS Validation
+Validated using W3C CSS Validator.
 
-## Validation
+### Functional Testing
 
-HTML validated using:
-https://validator.w3.org/
-
-CSS validated using:
-https://jigsaw.w3.org/css-validator/
+- Dark Mode Toggle Tested
+- Typing Animation Tested
+- Form Validation Tested
+- Success Messages Tested
+- Responsive Design Tested
+- Navigation Links Tested
+- Scroll-To-Top Button Tested
 
 ---
 
-## Challenges Faced
-- Making the website responsive
-- Fixing image alignment
-- Understanding Flexbox and Grid
-- Creating professional layout
-- Managing spacing and styling
+## Screenshots
 
-These challenges were solved through debugging and practice.
+The screenshots folder contains:
+
+- Homepage
+- About Section
+- Skills Section
+- Contact Form
+- Typing Animation
+- Form Validation Error
+- Success Message
+- Dark Mode
+- Mobile View
+- GitHub Repository
+- HTML Validation
+- CSS Validation
 
 ---
 
-## Learning Outcome
-This project helped in understanding:
-- HTML webpage structure
-- CSS styling
-- Responsive web design
-- Flexbox and Grid
-- Media queries
-- Frontend development basics
-- GitHub project hosting
+## Learning Outcomes
+
+Through this project, I learned:
+
+- HTML5 semantic webpage structure
+- CSS3 styling and responsive design
+- Flexbox and Grid layouts
+- JavaScript fundamentals
+- DOM Manipulation
+- Event Handling
+- Form Validation
+- Local Storage
+- Responsive UI Development
+- GitHub Version Control
 
 ---
 
 ## GitHub Repository
-GitHub:
+
+Repository URL:
+
 https://github.com/likhi-2403
 
 ---
 
-## LinkedIn Profile
-LinkedIn:
-https://www.linkedin.com/in/likhitha-doddi
-
----
-
-## Conclusion
-This project successfully demonstrates a responsive and professional portfolio website using HTML5 and CSS3. The portfolio is fully responsive, visually professional, and satisfies all Week 2 project requirements.
-
----
-
 ## Author
-Likhitha Doddi
+
+**Likhitha Doddi**
+
+Computer Science Engineer
+
+Web Development | Machine Learning | Data Analysis
